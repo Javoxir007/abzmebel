@@ -65,9 +65,9 @@ class ImageAdminController extends Controller
 
             $uploaded = $request->file('image');
             $extension = $uploaded->getClientOriginalExtension();
-            $image_name = time()."_img"."$extension";
+            $image_name = time()."_img"."."."$extension";
             $uploaded->move(public_path('assets/img/blog'), $image_name);
-            $full_path = '/assets/img/blog/'.'.'.$image_name;
+            $full_path = '/assets/img/blog/'.$image_name;
         }
 
         $validated['image'] = $full_path;
