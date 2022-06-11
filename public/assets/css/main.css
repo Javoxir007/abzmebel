@@ -1615,11 +1615,12 @@
         width: 85%;
         height: 100%;
     }
-    .main-modal-send>button {
+    .main-modal-send>a>button {
         width: 60px;
         height: 30px;
         font-size: 16px;
-        right: 41.5%;
+        /* right: 41.5%; */
+        left: 40.5%;
     }
     .main-modal-send>h2 {
         font-size: 18px;
