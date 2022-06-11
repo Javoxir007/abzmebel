@@ -69,15 +69,15 @@
                 </div>
                 <div class="address">
                     <i class="las la-map-marker-alt"></i>
-                    <p>{{ __('City of Nukus, settlement') }} <br> {{ __('Taslak, Aralbaev St.') }}</p>
+                    <p>{{ __('City of Gurlen, settlement') }} <br> {{ __('Pahlavan Mahmud 14a') }}</p>
                 </div>
                 <div class="shop">
                     <i class="las la-shopping-cart"></i>
-                    <p>{{ __('Buy finished furniture') }} <br><a href="tel: +998 55 101-80-80">+998 55 <b>101-80-80</b></a></p>
+                    <p>{{ __('Buy finished furniture') }} <br><a href="tel: +998 99 717-84-88">+998 99 <b>717-84-88</b></a></p>
                 </div>
                 <div class="phone">
                     <i class="las la-phone-volume"></i>
-                    <p>{{ __('Call us') }} <br><a href="tel: +998 61 224-45-90">+998 61 <b>224-45-90</b></a></p>
+                    <p>{{ __('Call us') }} <br><a href="tel: +998 62 226-97-00">+998 62 <b>226-97-00</b></a></p>
                 </div>
                 <div class="lang">
                     <a href="{{ route(Route::currentRouteName(), 'uz') }}">UZ</a><b>|</b>
@@ -522,20 +522,20 @@
                         </div>
                     </div>
                     <!-- <button><a href="https://t.me/juslcard">@javoxirbekmebelbot</a></button> -->
-                    <button><a href="#">@javoxirbekmebelbot</a></button>
+                    <button><a href="#">@abzmebelbot</a></button>
                     <p>{{ __('Also subscribe to our social networks') }}</p>
                     <div class="social d-flex">
                         <div class="social-content">
                             <div class="s-img">
                                 <i class="lab la-instagram"></i>
                             </div>
-                            <p><a href="https://www.instagram.com/">Instagram</a></p>
+                            <p><a href="https://www.instagram.com/p/Cb3DG7FIkEZ/?igshid=YmMyMTA2M2Y=">Instagram</a></p>
                         </div>
                         <div class="social-content v2">
                             <div class="s-img">
                                 <i class="lab la-telegram-plane"></i>
                             </div>
-                            <p><a href="https://telegram.org/">Telegram</a></p>
+                            <p><a href="https://t.me/ABZ_MEBEL">Telegram</a></p>
                         </div>
                     </div>
                 </div>
@@ -596,10 +596,10 @@
             <h2>{{ __('Visit our showroom') }}</h2>
             <div class="comment">
                 <i class="las la-map-marker-alt"></i>
-                <p>{{ __('Nukus city, settlement Taslak, Aralbaev st.') }}</p>
+                <p>{{ __('City of Gurlen, settlement Pahlavan Mahmud 14a') }}</p>
             </div>
             <div class="inner-video">
-                <iframe width="100%" height="415" src="https://www.youtube.com/embed/XfTCgo_XV9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="415" src="https://www.youtube.com/embed/S3sODPqKSXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="all-text">
                 <div class="content-video">
@@ -615,7 +615,7 @@
                     <p>{{ __('Feel comfortable') }} <br> {{ __('and comfort of our furniture') }}</p>
                 </div>
                 <div class="btn1">
-                    <button><a href="https://goo.gl/maps/8BZeHqwrQfvkv4ap7">{{ __('See on the map') }}</a></button>
+                    <button><a href="https://goo.gl/maps/TuSKZknC7W1NiZ8a7">{{ __('See on the map') }}</a></button>
                 </div>
             </div>
         </div>
@@ -664,7 +664,7 @@
                     </div>
                     <div class="text-item">
                         <p>{{ __('Address') }}</p>
-                        <span>{{ __('Nukus city, settlement Taslak, Aralbaev st.') }}</span>
+                        <span>{{ __('City of Gurlen, settlement Pahlavan Mahmud 14a') }}</span>
                     </div>
                 </div>
                 <div class="all-question">
@@ -674,8 +674,8 @@
                     <div class="text-item">
                         <p>{{ __('Call us') }}</p>
                         <span>
-                            <p><a href="tel:+998 61 224-45-90">+998 61 <b>224-45-90</b></a></p>
-                            <p><a href="tel:+998 55 101-80-80">+998 55 <b>101-80-80</b></a></p>
+                            <p><a href="tel:+998 62 226-97-00">+998 62 <b>226-97-00</b></a></p>
+                            <p><a href="tel:+998 99 717-84-88">+998 99 <b>717-84-88</b></a></p>
                         </span>
                     </div>
                 </div>
@@ -704,11 +704,11 @@
     <section class="footer">
         <div class="container">
             <div class="all-footer">
-                <h2>© Muratbek Mebel, 2021.</h2>
+                <h2>© ABZ MEBEL, 2022.</h2>
                 <ul>
-                    <li><a href="https://www.instagram.com/"><i class="lab la-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/p/Cb3DG7FIkEZ/?igshid=YmMyMTA2M2Y="><i class="lab la-instagram"></i></a></li>
                     <li><a href="https://www.facebook.com/"><i class="lab la-facebook-f"></i></a></li>
-                    <li><a href="https://www.youtube.com/"><i class="lab la-youtube"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCber2Q4D8Pvxw0TeafvR4RQ"><i class="lab la-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
