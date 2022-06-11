@@ -615,7 +615,7 @@
                     <p>{{ __('Feel comfortable') }} <br> {{ __('and comfort of our furniture') }}</p>
                 </div>
                 <div class="btn1">
-                    <button><a href="https://goo.gl/maps/TuSKZknC7W1NiZ8a7">{{ __('See on the map') }}</a></button>
+                    <button><a href="https://goo.gl/maps/AJvUrqFeRzJittJfA">{{ __('See on the map') }}</a></button>
                 </div>
             </div>
         </div>
@@ -686,7 +686,7 @@
                     <div class="text-item">
                         <p>{{ __('Schedule') }}</p>
                         <span>
-                            <p>С <b>9:00</b> до <b>19:00</b> часов</p>
+                            <p>{{ __('With') }} <b>9:00</b> {{ __('before') }} <b>19:00</b> {{ __('hours') }}</p>
                             <p>{{ __('Seven days a week') }}</p>
                         </span>
                     </div>

@@ -140,5 +140,8 @@
     "Image": "Rasm",
     "Action": "Harakat",
     "Change": "O`zgartirish",
-    "Delete": "O`chirish"
+    "Delete": "O`chirish",
+    "With": "Soat",
+    "before": "dan",
+    "hours": "gacha"
 }
