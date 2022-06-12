@@ -167,10 +167,10 @@
                         @foreach($categories as $parent)
                         <div class="faq-item">
                             <input type="checkbox" class="faq-input" name="faq_{{$parent->id}}" id="faq_{{$parent->id}}">
-                            <label for="faq_{{$parent->id}}" class="faq-title">{{$parent->name}}</label>
+                            <label for="faq_{{$parent->id}}" class="faq-title">{{ $language ? $parent->name : $parent->name_uz}}</label>
                             <form class="faq-text">
                                 @foreach($parent->child as $item)
-                                    <p><a href="{{ route('index', app()->getLocale()).'?category_id='.$item->id }}">{{ $item->name }}</a></p>
+                                    <p><a href="{{ route('index', app()->getLocale()).'?category_id='.$item->id }}">{{ $language ? $item->name : $item->name_uz }}</a></p>
                                 @endforeach
                             </form>
                         </div>

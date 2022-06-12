@@ -23,7 +23,7 @@
                             <select class="form-select" name="category_id">
                                 <!-- <option>Tanlang</option> -->
                                 @foreach($category as $cat)
-                                    <option value="{{ $cat->id }}">{{ $cat->name }}</option>
+                                    <option value="{{ $cat->id }}">{{ $cat->name_uz }}</option>
                                 @endforeach
                             </select>
                         </div>

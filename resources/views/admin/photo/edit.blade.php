@@ -25,9 +25,9 @@
                         <div class="mb-3 col-4">
                             <label for="" class="form-label">Kategoriya</label>
                             <select class="form-select" name="category_id">
-                                <option value="{{ $item->category->id }}">{{ $item->category->name }}</option>
+                                <option value="{{ $item->category->id }}">{{ $item->category->name_uz }}</option>
                                 @foreach($category as $cat)
-                                    <option value="{{ $cat->id }}">{{ $cat->name }}</option>
+                                    <option value="{{ $cat->id }}">{{ $cat->name_uz }}</option>
                                 @endforeach
                             </select>
                         </div>
