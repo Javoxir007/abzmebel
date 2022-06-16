@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murodbek Mebel</title>
+    <title>ABZ Mebel</title>
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
-    <link rel="icon" href="{{ asset('assets/img/Logo.png') }}">
+    <link rel="icon" href="{{ asset('assets/img/abzlogo.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/icons/line-awesome.min.css') }}">
 </head>
 <body id="body">
@@ -64,7 +64,7 @@
         <div class="container">
             <div class="navbar d-flex">
                 <div class="logo">
-                    <img src="assets/img/logo.svg" alt="">
+                    <img src="assets/img/abzlogo.png" alt="">
                     <p>{{ __('Manufacture of furniture to order in a wide range') }}</p>
                 </div>
                 <div class="address">
@@ -98,25 +98,25 @@
                     <div class="text-garant">
                         <div class="garant">
                             <div class="g-img">
-                                <img src="assets/img/shield.svg" alt="">
+                                <img src="assets/img/abzanti.png" alt="">
                             </div>
                             <p>{{ __('Guarantee') }} <br> {{ __('for 1 year') }}</p>
                         </div>
                         <div class="garant">
                             <div class="g-img">
-                                <img src="assets/img/3d.svg" alt="">
+                                <img src="assets/img/abzfree.png" alt="">
                             </div>
                             <p>{{ __('Free 3D') }} <br> {{ __('design project') }}</p>
                         </div>
                         <div class="garant">
                             <div class="g-img">
-                                <img src="assets/img/box.svg" alt="">
+                                <img src="assets/img/abzbepul.png" alt="">
                             </div>
                             <p>{{ __('Free shipping') }} <br> {{ __('and installation') }}</p>
                         </div>
                         <div class="garant">
                             <div class="g-img">
-                                <img src="assets/img/quality.svg" alt="">
+                                <img src="assets/img/abzsifat.png" alt="">
                             </div>
                             <p>{{ __('High') }} <br> {{ __('quality') }}</p>
                         </div>
@@ -309,14 +309,14 @@
             <div class="all-box">
                 <div class="box1">
                     <div class="box1-img">
-                        <img src="assets/img/talon.webp" alt="">
+                        <img src="assets/img/talon1.png" alt="">
                     </div>
                     <h2>{{ __('Warranty 1 year') }}</h2>
                     <p>{{ __('Furniture factory warranty') }}</p>
                 </div>
                 <div class="box1">
                     <div class="box1-img">
-                        <img src="assets/img/calendar.webp" alt="">
+                        <img src="assets/img/calendar1.png" alt="">
                     </div>
                     <h2>{{ __('Deadlines') }}</h2>
                     <p>{{ __('Term from 1 - 25 days') }}</p>
@@ -430,7 +430,7 @@
     <section class="dostavka">
         <div class="container">
             <h2>{{ __('Delivery, assembly and installation of furniture') }}</h2>
-            <img class="img" src="assets/img/delivery.webp" alt="">
+            <img class="img" src="assets/img/abzdostavkas.png" alt="">
             <div class="all-dostavka d-flex">
                 <div class="box1">
                     <div class="d-img">
@@ -717,58 +717,8 @@
     <!-- Section-footer -->
 
 
-
-    <!-- <div class="test" style="height: 50px; background-color: yellow;">1</div> -->
-
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-
-        /* $("#contact-form").on('submit', function(event) {
-            event.preventDefault();
-
-            let name = $('#name').val();
-            let phone_number = $('#phone_number').val();
-
-            $.ajax({
-                url:"{{ route('free_design', app()->getLocale()) }}",
-                type:"POST",
-                data:{
-                    "_token":"{{ csrf_token() }}",
-                    name:name,
-                    phone_number:phone_number,
-                },
-                success:function(response){
-                    alert(response);
-                }
-            });
-
-        }) */
-
-        /* $("#send").click(function() {
-            let address = $('#address').val();
-            let time = $('#time').val();                
-            let data = {
-                "_token": "{{ csrf_token() }}",
-                "_method": "POST",
-                address:address,
-                time:time
-            }
-            let url = "{{ route('call_specialist', app()->getLocale()) }}"
-            //alert(name);
-
-            $.ajax({
-                url: url,
-                type: "POST",
-                data: data,
-                cache:false,
-                success:function($res){
-                    console.log($res);
-                }
-            });
-        }); */
-
-    </script>
 
 </body>
 </html>
