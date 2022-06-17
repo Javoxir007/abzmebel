@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="img-block">
-                    <img src="assets/img/head-img.webp" alt="">
+                    <img src="assets/img/stol2.png" alt="">
                 </div>
             </div>
         </div>
@@ -430,7 +430,7 @@
     <section class="dostavka">
         <div class="container">
             <h2>{{ __('Delivery, assembly and installation of furniture') }}</h2>
-            <img class="img" src="assets/img/abzdostavkas.png" alt="">
+            <img class="img" src="assets/img/dostavakas.jpg" alt="">
             <div class="all-dostavka d-flex">
                 <div class="box1">
                     <div class="d-img">
