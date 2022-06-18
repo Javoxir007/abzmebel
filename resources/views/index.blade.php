@@ -499,7 +499,7 @@
         <div class="container">
             <div class="all-telegram d-flex">
                 <div class="left-content">
-                    <h2>{{ __('Subscribe to our telegram bot') }}</h2>
+                    <h2>{{ __('Subscribe to our telegram group') }}</h2>
                     <p class="you">{{ __('You can') }}:</p>
                     <div class="all-box2">
                         <div class="box-content">
@@ -522,7 +522,7 @@
                         </div>
                     </div>
                     <!-- <button><a href="https://t.me/juslcard">@javoxirbekmebelbot</a></button> -->
-                    <button><a href="#">@abzmebelbot</a></button>
+                    <button><a href="https://t.me/ABZ_MEBEL">ABZ_MEBEL</a></button>
                     <p>{{ __('Also subscribe to our social networks') }}</p>
                     <div class="social d-flex">
                         <div class="social-content">
