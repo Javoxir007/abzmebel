@@ -13,7 +13,6 @@ class PageController extends Controller
     {
         $catId = $request->category_id ? $request->category_id : 6;
         $categories = Category::whereNull('parent_id')->with('child')->get();
-        $language = $request->language === 'ru';
 
         //$childCategoryIds = Category::where('parent_id', $catId)->pluck('id')->toArray();
 
@@ -23,8 +22,11 @@ class PageController extends Controller
 
         //$category_images = Image::where('category_id', $catId)->get()->random(9); randomna chiqaradi va agar randomda berilgan qiymatdan kam bo`lsa xatolik beradi
         $category_images = Image::where('category_id', $catId)->orderBy('id', 'desc')->get()->take(9);
+        $language = $request->language === 'ru';
+        $all_images = Image::get()->take(8);
+        
 
-        return view('index', compact('categories', 'category_images', 'language'));
+        return view('index', compact('categories', 'category_images', 'language', 'all_images'));
     }
 
     public function test()

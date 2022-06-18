@@ -557,30 +557,11 @@
             <div class="all-images">
                 <h2>{{ __('We have completed over 10,000 orders') }}</h2>
                 <div class="images-box">
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="assets/img/photo8.png" alt="">
-                    </div>
+                    @foreach($all_images as $item)
+                        <div class="img">
+                            <img src="{{ asset($item->image) }}" alt="">
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
