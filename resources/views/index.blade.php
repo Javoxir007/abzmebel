@@ -430,7 +430,7 @@
     <section class="dostavka">
         <div class="container">
             <h2>{{ __('Delivery, assembly and installation of furniture') }}</h2>
-            <img class="img" src="assets/img/dostavakas.jpg" alt="">
+            <img class="img" src="assets/img/dostavkas.png" alt="">
             <div class="all-dostavka d-flex">
                 <div class="box1">
                     <div class="d-img">
