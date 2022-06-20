@@ -583,7 +583,7 @@
 
 .partner {
     height: 500px;
-    background-image: url(../img/eq-bg.webp);
+    background-image: url(../img/partnerbg.webp);
 }
 .full-partner {
     height: 500px;
@@ -725,7 +725,7 @@
 
 .room {
     height: 600px;
-    background-image: url(../img/room2.webp);
+    background-image: url(../img/livingroom.webp);
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -967,7 +967,7 @@
 
 .sort {
     height: 500px;
-    background-image: url(../img/net.webp);
+    background-image: url(../img/material.webp);
     background-color: #cbb577;
 }
 .sort h2 {
@@ -1281,6 +1281,10 @@
     align-items: center;
     /* border: 1px solid blue; */
 }
+.all-telegram>.right-tel-img>img {
+    width: 100%;
+    height: 80%;
+}
 
 /* Section-telegram */
 
@@ -1334,7 +1338,7 @@
 
 .video {
     height: 750px;
-    background-image: url(../img/video-bg.webp);
+    background-image: url(../img/videoaboutus.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1505,7 +1509,7 @@
     height: 550px;
     width: 50%;
     padding: 75px 35px;
-    background-image: url(../img/foot-contact-bg.webp);
+    background-image: url(../img/contactbg.webp);
 }
 .full-questions>.right-question>h2 {
     color: #6e502e;
@@ -2156,6 +2160,7 @@
         align-items: center;
         /* border: 1px solid red; */
         margin: 0 auto;
+        margin-bottom: 25px;
     }
     .all-telegram>.right-tel-img>img {
         width: 90%;
@@ -2864,6 +2869,7 @@
         align-items: center;
         /* border: 1px solid red; */
         margin: 0 auto;
+        margin-bottom: 25px;
     }
     .all-telegram>.right-tel-img>img {
         width: 90%;
@@ -3623,6 +3629,7 @@
         align-items: center;
         /* border: 1px solid red; */
         margin: 0 auto;
+        margin-bottom: 25px;
     }
     .all-telegram>.right-tel-img>img {
         width: 90%;

@@ -203,7 +203,7 @@
                     </div>
                     <div class="all-puls">
                         <div class="pulse">
-                            <img src="assets/img/play-btn.svg" alt="">
+                            <img src="assets/img/play.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                 <div class="right-img">
                     <div class="text1">{{ __('Quickly draw a furniture design project') }}</div>
                     <div class="img">
-                        <img src="assets/img/man.webp" alt="">
+                        <img src="assets/img/human.webp" alt="">
                     </div>
                     <div class="text2">{{ __('Find out how you can save') }}</div>
                 </div>
@@ -309,21 +309,21 @@
             <div class="all-box">
                 <div class="box1">
                     <div class="box1-img">
-                        <img src="assets/img/talon1.png" alt="">
+                        <img src="assets/img/ticket.png" alt="">
                     </div>
                     <h2>{{ __('Warranty 1 year') }}</h2>
                     <p>{{ __('Furniture factory warranty') }}</p>
                 </div>
                 <div class="box1">
                     <div class="box1-img">
-                        <img src="assets/img/calendar1.png" alt="">
+                        <img src="assets/img/calendars.png" alt="">
                     </div>
                     <h2>{{ __('Deadlines') }}</h2>
                     <p>{{ __('Term from 1 - 25 days') }}</p>
                 </div>
                 <div class="box1">
                     <div class="box1-img">
-                        <img src="assets/img/wallet.webp" alt="">
+                        <img src="assets/img/balance.webp" alt="">
                     </div>
                     <h2>{{ __('Installment plan') }}</h2>
                     <p>{{ __('Interest-free installment up to 12 months.') }}</p>
@@ -345,7 +345,7 @@
             <div class="all-sort d-flex">
                 <div class="box">
                     <div class="sort-img">
-                        <img src="assets/img/derevo.webp" alt="">
+                        <img src="assets/img/tree.webp" alt="">
                     </div>
                     <p style="font-size: 16px;">{{ __('Wood') }}</p>
                 </div>
@@ -369,7 +369,7 @@
                 </div>
                 <div class="box">
                     <div class="sort-img">
-                        <img src="assets/img/plastik.webp" alt="">
+                        <img src="assets/img/plastic.webp" alt="">
                     </div>
                     <p style="font-size: 17px;">{{ __('Plastic parts') }}</p>
                 </div>
@@ -389,13 +389,13 @@
             <div class="all-work">
                 <div class="box-work">
                     <div class="b-img">
-                        <img src="assets/img/metr.webp" alt="">
+                        <img src="assets/img/froze.webp" alt="">
                     </div>
                     <p>{{ __('Free') }} <br> {{ __('froze') }}</p>
                 </div>
                 <div class="box-work">
                     <div class="b-img">
-                        <img src="assets/img/document.webp" alt="">
+                        <img src="assets/img/treaty.webp" alt="">
                     </div>
                     <p>{{ __('Drafting') }} <br> {{ __('agreements') }}</p>
                 </div>
@@ -407,13 +407,13 @@
                 </div>
                 <div class="box-work">
                     <div class="b-img">
-                        <img src="assets/img/tools.webp" alt="">
+                        <img src="assets/img/manufacturing.webp" alt="">
                     </div>
                     <p>{{ __('Manufacturing') }} <br> {{ __('furniture') }}</p>
                 </div>
                 <div class="box-work">
                     <div class="b-img">
-                        <img src="assets/img/pickup.webp" alt="">
+                        <img src="assets/img/installation.webp" alt="">
                     </div>
                     <p>{{ __('Delivery and') }} <br> {{ __('installation') }}</p>
                 </div>
@@ -434,25 +434,25 @@
             <div class="all-dostavka d-flex">
                 <div class="box1">
                     <div class="d-img">
-                        <img src="assets/img/city (1).webp" alt="">
+                        <img src="assets/img/town.webp" alt="">
                     </div>
                     <p>{{ __('Inside the city and in the surrounding areas for free') }}</p>
                 </div>
                 <div class="box1">
                     <div class="d-img">
-                        <img src="assets/img/tool.webp" alt="">
+                        <img src="assets/img/buildtools.webp" alt="">
                     </div>
                     <p>{{ __('Assembling furniture carefully') }}</p>
                 </div>
                 <div class="box1">
                     <div class="d-img">
-                        <img src="assets/img/map-icon.webp" alt="">
+                        <img src="assets/img/location.webp" alt="">
                     </div>
                     <p>{{ __('We deliver to other regions and to Kazakhstan') }}</p>
                 </div>
                 <div class="box1">
                     <div class="d-img">
-                        <img src="assets/img/trash.webp" alt="">
+                        <img src="assets/img/cleanuptrash.webp" alt="">
                     </div>
                     <p>{{ __('We remove the large') }} <br> {{ __('trash after you') }}</p>
                 </div>
@@ -504,19 +504,19 @@
                     <div class="all-box2">
                         <div class="box-content">
                             <div class="img">
-                                <img src="assets/img/bot-icon1.svg" alt="">
+                                <img src="assets/img/viewmebel.svg" alt="">
                             </div>
                             <p>{{ __('View more') }} <br>{{ __('10 000 items of furniture') }}</p>
                         </div>
                         <div class="box-content">
                             <div class="img">
-                                <img src="assets/img/bot-icon2.svg" alt="">
+                                <img src="assets/img/getinformation.svg" alt="">
                             </div>
                             <p>{{ __('Get detailed') }} <br> {{ __('information about each product') }}</p>
                         </div>
                         <div class="box-content">
                             <div class="img">
-                                <img src="assets/img/bot-icon3.svg" alt="">
+                                <img src="assets/img/callmeasurer.svg" alt="">
                             </div>
                             <p>{{ __('Call a measurer') }} <br> {{ __('on house') }}</p>
                         </div>
@@ -540,7 +540,7 @@
                     </div>
                 </div>
                 <div class="right-tel-img">
-                    <img src="assets/img/iPhone-12.png" alt="">
+                    <img src="assets/img/phonesgroups.png" alt="">
                 </div>
             </div>
         </div>
@@ -585,13 +585,13 @@
             <div class="all-text">
                 <div class="content-video">
                     <div class="video-img">
-                        <img src="assets/img/consultation.svg" alt="">
+                        <img src="assets/img/freeconsultation.svg" alt="">
                     </div>
                     <p>{{ __('Get a free consultation') }}</p>
                 </div>
                 <div class="content-video">
                     <div class="video-img">
-                        <img src="assets/img/furni.svg" alt="">
+                        <img src="assets/img/feelcomfortable.svg" alt="">
                     </div>
                     <p>{{ __('Feel comfortable') }} <br> {{ __('and comfort of our furniture') }}</p>
                 </div>
