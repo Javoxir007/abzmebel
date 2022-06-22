@@ -211,13 +211,13 @@
                     <div class="country d-flex">
                         <div class="name-count">
                             <div class="count-img">
-                                <img src="assets/img/ru.webp" alt="">
+                                <img src="assets/img/ital.png" alt="">
                             </div>
                             <p>{{ __('Italy') }}</p>
                         </div>
                         <div class="name-count">
                             <div class="count-img">
-                                <img src="assets/img/de.webp" alt="">
+                                <img src="assets/img/german.png" alt="">
                             </div>
                             <p>{{ __('Germany') }}</p>
                         </div>
@@ -229,7 +229,7 @@
                         </div>
                         <div class="name-count">
                             <div class="count-img">
-                                <img src="assets/img/au.webp" alt="">
+                                <img src="assets/img/shved.png" alt="">
                             </div>
                             <p>{{ __('Sweden') }}</p>
                         </div>

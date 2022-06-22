@@ -699,6 +699,17 @@
     display: flex;
     align-items: center;
 }
+.country>.name-count>.count-img {
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.country>.name-count>.count-img>img {
+    width: 100%;
+    height: 100%;
+}
 .country>.name-count>p {
     color: white;
     padding-left: 12px;
