@@ -142,15 +142,15 @@
                     <p>{{ __('Models in assortment') }}</p>
                 </div>
                 <div class="box">
-                    <h1>5-10 {{ __('year') }}</h1>
+                    <h1>5-7 {{ __('year') }}</h1>
                     <p>{{ __('Experience of our craftsmen') }}</p>
                 </div>
                 <div class="box">
-                    <h1>15 {{ __('year') }}</h1>
+                    <h1>7 {{ __('year') }}</h1>
                     <p>{{ __('Experience in the market') }}</p>
                 </div>
                 <div class="box">
-                    <h1>10 000 +</h1>
+                    <h1>2 000 +</h1>
                     <p>{{ __('Satisfied customers') }}</p>
                 </div>
             </div>
@@ -213,7 +213,7 @@
                             <div class="count-img">
                                 <img src="assets/img/ru.webp" alt="">
                             </div>
-                            <p>{{ __('Russia') }}</p>
+                            <p>{{ __('Italy') }}</p>
                         </div>
                         <div class="name-count">
                             <div class="count-img">
@@ -231,11 +231,11 @@
                             <div class="count-img">
                                 <img src="assets/img/au.webp" alt="">
                             </div>
-                            <p>{{ __('Austria') }}</p>
+                            <p>{{ __('Sweden') }}</p>
                         </div>
                     </div>
                     <div class="ploshad">
-                        <h1>3 800 {{ __('m') }}²</h1>
+                        <h1>500 {{ __('m') }}²</h1>
                         <p>{{ __('production area') }}-<br>{{ __('storage facilities') }}</p>
                     </div>
                 </div>
@@ -448,7 +448,7 @@
                     <div class="d-img">
                         <img src="assets/img/location.webp" alt="">
                     </div>
-                    <p>{{ __('We deliver to other regions and to Kazakhstan') }}</p>
+                    <p>{{ __('We deliver to other regions and to Karakalpakstan') }}</p>
                 </div>
                 <div class="box1">
                     <div class="d-img">
@@ -506,7 +506,7 @@
                             <div class="img">
                                 <img src="assets/img/viewmebel.svg" alt="">
                             </div>
-                            <p>{{ __('View more') }} <br>{{ __('10 000 items of furniture') }}</p>
+                            <p>{{ __('View our') }} <br>{{ __('work') }}</p>
                         </div>
                         <div class="box-content">
                             <div class="img">
@@ -521,8 +521,7 @@
                             <p>{{ __('Call a measurer') }} <br> {{ __('on house') }}</p>
                         </div>
                     </div>
-                    <!-- <button><a href="https://t.me/juslcard">@javoxirbekmebelbot</a></button> -->
-                    <button><a href="https://t.me/ABZ_MEBEL">ABZ_MEBEL</a></button>
+                    <button><a href="https://t.me/ABZ_MEBEL">t.me/ABZ_MEBEL</a></button>
                     <p>{{ __('Also subscribe to our social networks') }}</p>
                     <div class="social d-flex">
                         <div class="social-content">
@@ -533,9 +532,9 @@
                         </div>
                         <div class="social-content v2">
                             <div class="s-img">
-                                <i class="lab la-telegram-plane"></i>
+                                <i class="lab la-youtube"></i>
                             </div>
-                            <p><a href="https://t.me/ABZ_MEBEL">Telegram</a></p>
+                            <p><a href="https://www.youtube.com/channel/UCber2Q4D8Pvxw0TeafvR4RQ">YouTube</a></p>
                         </div>
                     </div>
                 </div>
@@ -555,7 +554,7 @@
     <section class="images">
         <div class="container">
             <div class="all-images">
-                <h2>{{ __('We have completed over 10,000 orders') }}</h2>
+                <h2>{{ __('We have completed over 2 000 orders') }}</h2>
                 <div class="images-box">
                     @foreach($all_images as $item)
                         <div class="img">
