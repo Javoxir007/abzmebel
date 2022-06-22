@@ -211,7 +211,7 @@
                     <div class="country d-flex">
                         <div class="name-count">
                             <div class="count-img">
-                                <img src="assets/img/ital.png" alt="">
+                                <img src="assets/img/itals.png" alt="">
                             </div>
                             <p>{{ __('Italy') }}</p>
                         </div>
@@ -229,7 +229,7 @@
                         </div>
                         <div class="name-count">
                             <div class="count-img">
-                                <img src="assets/img/shved.png" alt="">
+                                <img src="assets/img/shveds.png" alt="">
                             </div>
                             <p>{{ __('Sweden') }}</p>
                         </div>
