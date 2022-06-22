@@ -707,8 +707,8 @@
     overflow: hidden;
 }
 .country>.name-count>.count-img>img {
-    width: 100%;
-    height: 100%;
+    width: 60px;
+    height: 60px;
 }
 .country>.name-count>p {
     color: white;
