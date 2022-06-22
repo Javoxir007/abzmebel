@@ -217,7 +217,7 @@
                         </div>
                         <div class="name-count">
                             <div class="count-img">
-                                <img src="assets/img/german.png" alt="">
+                                <img src="assets/img/de.webp" alt="">
                             </div>
                             <p>{{ __('Germany') }}</p>
                         </div>

@@ -1852,17 +1852,6 @@
         margin-bottom: 15px;
         justify-content: center;
     }
-    .country>.name-count>.count-img {
-        /* border: 1px solid red; */
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        overflow: hidden;
-    }
-    .country>.name-count>.count-img>img {
-        width: 100%;
-        height: 100%;
-    }
     .ploshad {
         width: 100%;
         /* margin-top: 125px; */
