@@ -1119,6 +1119,9 @@
     background-color: transparent;
     border: 1px solid white;
 }
+.full-call>.input-phone>input {
+    color: white;
+}
 .input-name>i,
 .input-phone>i {
     font-size: 30px;
@@ -1494,6 +1497,9 @@
     font-weight: 500;
 }
 .left-question>form>.input-phone>input::placeholder {
+    color: white;
+}
+.left-question>form>.input-phone>input {
     color: white;
 }
 .left-question>form>button {
